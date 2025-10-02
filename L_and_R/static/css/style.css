@@ -8,9 +8,8 @@ body {
   margin: 0;
   background: #f4f4f4;
 }
-
 /* ===== Common Container Styles for Login & Signup ===== */
-.login-container{
+.login-container {
   background: #fff;
   padding: 30px;
   border-radius: 15px;
@@ -55,7 +54,7 @@ body {
 .signup-container input:focus {
   border-color: #2575fc;
   outline: none;
-  box-shadow: 0 0 5px rgba(37,117,252,0.3);
+  box-shadow: 0 0 5px rgba(37, 117, 252, 0.3);
 }
 
 .login-container button,
@@ -93,4 +92,34 @@ body {
 .login-container a:hover,
 .signup-container a:hover {
   text-decoration: underline;
+}
+
+/* ----dashboard---- */
+
+.dashboard-container {
+  background: white;
+  padding: 30px 40px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  width: 350px;
+}
+
+.dashboard-container h2 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.dashboard-container a {
+  display: inline-block;
+  text-decoration: none;
+  background: rgb(78, 6, 6);
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+  transition: background 0.3s ease;
+}
+
+.dashboard-container a:hover {
+  background: #e63946;
 }
